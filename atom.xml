@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>企业文化</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zhuojiamin.com/"/>
+  <updated>2018-04-12T12:56:45.538Z</updated>
+  <id>http://zhuojiamin.com/</id>
+  
+  <author>
+    <name>文竹</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工作报告</title>
+    <link href="http://zhuojiamin.com/2018/04/12/%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A/"/>
+    <id>http://zhuojiamin.com/2018/04/12/工作报告/</id>
+    <published>2018-04-12T12:52:31.000Z</published>
+    <updated>2018-04-12T12:56:45.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>**</p><h1 id="年度总结实现"><a href="#年度总结实现" class="headerlink" title="年度总结实现"></a>年度总结实现</h1><p>*<em></em>表现极好*<br>继续表现！！！！<br><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2745433131,2302087931&amp;fm=200&amp;gp=0.jpg" alt="这里写图片描述"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;**&lt;/p&gt;
+&lt;h1 id=&quot;年度总结实现&quot;&gt;&lt;a href=&quot;#年度总结实现&quot; class=&quot;headerlink&quot; title=&quot;年度总结实现&quot;&gt;&lt;/a&gt;年度总结实现&lt;/h1&gt;&lt;p&gt;*&lt;em&gt;
+&lt;/em&gt;表现极好*&lt;br&gt;继续表现！！！！&lt;br&gt;&lt;img src=&quot;ht
+      
+    
+    </summary>
+    
+      <category term="报告" scheme="http://zhuojiamin.com/categories/%E6%8A%A5%E5%91%8A/"/>
+    
+    
+      <category term="年度总结" scheme="http://zhuojiamin.com/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://zhuojiamin.com/2018/04/12/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://zhuojiamin.com/2018/04/12/第一篇文章/</id>
+    <published>2018-04-12T08:40:46.000Z</published>
+    <updated>2018-04-12T12:50:17.030Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://img.blog.csdn.net/20180412150644284?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmFpZHVfNDE2OTA4NDI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p><p>一、    长隆酒店规模<br>   长隆酒店一个有12家酒店，珠海3家，清远4家，广州5家。<br>二、数据<br>（一）、数据来源<br>数据的来源OPERE、INFORSEX、GOUMATET、官网、其他日常数据、预订系统（开发中）。<br>（二）、马戏酒店主要数据<br>1、营业额</p><p>2、人数</p><p>三、表格<br>（一）常用的表格<br>1、马戏酒店表格（18个）<br>（1）马戏酒店餐饮部三日预测表<br>餐饮部三日预测表<br>日期    时段    地点    名称    人数    …</p><p>（2）马戏酒店接待预测表<br>马戏酒店接待预测表<br>日期    地点    类型    状态    团队    人数    预计总收入    …</p><p>（3）马戏酒店餐饮收入表<br>客房数据    餐饮数据<br>…    …    …    早市    午市    晚市<br>            …    …    …    …    …    …    …    …    …</p><p>（4）春节净房、套票及房包餐统计表<br>（5）营业额<br>营业额    人数<br>子菜单1    子菜单2    子菜单3    …    </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20180412150644284?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmFpZHVfNDE2OTA4NDI=/font/5a6L5L2T/font
+      
+    
+    </summary>
+    
+      <category term="总结" scheme="http://zhuojiamin.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="长隆" scheme="http://zhuojiamin.com/tags/%E9%95%BF%E9%9A%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好</title>
+    <link href="http://zhuojiamin.com/2018/04/04/hello-world/"/>
+    <id>http://zhuojiamin.com/2018/04/04/hello-world/</id>
+    <published>2018-04-04T08:47:43.654Z</published>
+    <updated>2018-04-04T15:12:30.169Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
