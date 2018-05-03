@@ -198,16 +198,27 @@
 浏览次数:<span id="/2018/04/04/hello-world/" class="leancloud_visitors" data-flag-title="你好"></span>次
 </article>
 
+<style>  
+    a{text-decoration:none;  /* 去掉下划线 */}   
+</style>  
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+<br>  
+    <a href="javascript:void(0)" onclick="numAddSub(false)" >---</a>  
+    <input type="text" readonly id="mum" value="1"/>  
+    <a href="javascript:void(0)" onclick="numAddSub(true)" >+++</a>   
+<script>  
+    function numAddSub(add){  
+        var temp = +($("#mum").val());  
+        if(add){  
+            $("#mum").val(++temp);  
+        }else{  
+            temp = temp || 1  
+            temp = temp==1?2:temp;  //最小值为1  
+            $("#mum").val(--temp);  
+        }  
+    }  
+</script>  
 
-<script typet="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
-    <script>
-        $(function () {            
-            $(".like").click(function () {
-                $(this).toggleClass('cs');                
-            })
-        })
-    </script>
-<p class="like">&#10084;</p>
 
 <!-- 来必力City版安装代码 -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC8zNTUzMy8xMjA2OQ==">
@@ -227,6 +238,8 @@
 <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
 <!-- City版安装代码已完成 -->
+
+
 
                         </div>
                     </section>
