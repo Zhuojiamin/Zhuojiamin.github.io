@@ -200,26 +200,36 @@
 浏览次数:<span id="/2018/04/12/工作报告/" class="leancloud_visitors" data-flag-title="工作报告"></span>次
 </article>
 
-<style>  
-    a{text-decoration:none;  /* 去掉下划线 */}   
-</style>  
-<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
-<br>  
-    <a href="javascript:void(0)" onclick="numAddSub(false)" >---</a>  
-    <input type="text" readonly id="mum" value="1"/>  
-    <a href="javascript:void(0)" onclick="numAddSub(true)" >+++</a>   
-<script>  
-    function numAddSub(add){  
-        var temp = +($("#mum").val());  
-        if(add){  
-            $("#mum").val(++temp);  
-        }else{  
-            temp = temp || 1  
-            temp = temp==1?2:temp;  //最小值为1  
-            $("#mum").val(--temp);  
-        }  
-    }  
-</script>  
+/点赞分享
+      function praiseBox(box,el){//box为所触发元素el的最外层父容器
+        var praiseElement = box.getElementsByClassName('praise-total')[0];
+        var oldTotal = parseInt(praiseElement.getAttribute('total'));
+        var txt = el.innerHTML;
+        var newTotal = 0;
+        if(txt == '赞'){
+          newTotal = oldTotal + 1;
+          praiseElement.innerHTML = (newTotal == 1) ? '我觉得很赞' : '我和' + oldTotal +'个人觉得很赞';
+          el.innerHTML = '取消赞';
+        }else{
+          newTotal = oldTotal - 1;
+          praiseElement.innerHTML = (newTotal == 0) ? '' : newTotal + '个人觉得很赞';
+          el.innerHTML = '赞';
+        }
+        praiseElement.setAttribute('total',newTotal);
+        praiseElement.style.display = (newTotal == 0) ? 'none': 'block';
+      }
+      //事件代理
+      for(var i=0 ;i<boxs.length;i++){
+        boxs[i].onclick = function(e){
+          e = e||window.event;
+          var el = e.srcElement || e.target;
+          switch (el.className) {
+            case 'close':removeNode(el.parentNode);break;
+            case 'praise':praiseBox(el.parentNode.parentNode.parentNode,el);
+          }
+        }
+      } 
+
 
 
 <!-- 来必力City版安装代码 -->
