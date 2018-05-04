@@ -926,9 +926,6 @@ code {
 .article-single {
   padding: 30px 30px 20px;
 }
-.article-inner {
-  overflow: hidden;
-}
 .article-row {
   width: 100%;
   float: left;
@@ -1958,11 +1955,6 @@ i.icon:before {
     padding: 10px 30px;
     background: none;
     border-bottom: 1px solid #ddd;
-  }
-  .main-body-inner #sidebar .sidebar-top p,
-  .main-body-inner #sidebar .sidebar-top a,
-  .main-body-inner #sidebar .sidebar-top i {
-    color: #666;
   }
   .main-body-inner #sidebar #article-nav,
   .main-body-inner #sidebar .widgets-container,
